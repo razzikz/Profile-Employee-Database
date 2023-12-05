@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "name": "Jonh",
+      "salary": 35000,
+      "job_title": "Programmer"
+    }
+  ]
+}
