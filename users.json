@@ -1,9 +1,1 @@
-{
-  "users": [
-    {
-      "name": "Jonh",
-      "salary": 35000,
-      "job_title": "Programmer"
-    }
-  ]
-}
+{"users": [{"name": "Max", "salary": 10000, "job_title": "Cleaner"}]}
