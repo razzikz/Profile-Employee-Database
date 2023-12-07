@@ -1,4 +1,4 @@
-# employees programm
+# 🤜🏻employees programm🤛🏻
 This version (final at the moment) has the following functions:
 1. deleting users
 2. adding users
@@ -11,10 +11,11 @@ Planned:
 4. code optimization (up to the latest version)
 5. adding a database in the cloud SQL or Firebase (version 3.0 or later)
 
-At the moment, the stages that we wanted to achieve in version 1.0 have been achieved. Follow the changes to see how my project develops
+👨‍💻At the moment, the stages that we wanted to achieve in version 1.0 have been achieved. Follow the changes to see how my project develops👨‍💻
+👨‍💻This code is also resistant to user input errors👨‍💻
 
 #
-# программа профилей сотрудников
+# 🤜🏻программа профилей сотрудников🤛🏻
 
 Эта версия (последняя на данный момент) имеет следующие функции:
 1. удаление пользователей
@@ -28,4 +29,5 @@ At the moment, the stages that we wanted to achieve in version 1.0 have been ach
 4. оптимизация кода (до последней версии)
 5. добавление базы данных в облако SQL или Firebase (версия 3.0 или новее)
 
-На данный момент этапы, которых хотелось достичь в версии 1.0, были успешно достигнуты. Следите за изменениями, чтобы увидеть, как развивается мой проект
+👨‍💻На данный момент этапы, которых хотелось достичь в версии 1.0, были успешно достигнуты. Следите за изменениями, чтобы увидеть, как развивается мой проект👨‍💻
+👨‍💻Также данный код устойчив к ошибкам ввода пользователей👨‍💻
