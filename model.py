@@ -1,31 +1,3 @@
-def del_user(data):
-    name = enter_name()
-    data["users"] = [user for user in data["users"] if user["name"] != name]
-
-
-def add_user(data):
-    name = enter_name()
-    salary = enter_salary()
-    job_title = enter_job()
-    data['users'].append({
-        "name": name,
-        "salary": salary,
-        "job_title": job_title
-    })
-
-
-def edit_user(data):
-    name = enter_name()
-    salary = enter_salary()
-    job_title = enter_job()
-    data["users"] = [user for user in data["users"] if user["name"] != name]
-    data['users'].append({
-        "name": name,
-        "salary": salary,
-        "job_title": job_title
-    })
-
-
 def enter_name():
     try:
         name = input("Name users: ")
@@ -53,3 +25,31 @@ def enter_job():
             return job_title
         else:
             print("Try once more")
+
+
+class Model:
+    def __init__(self, name, salary, job):
+        self.name = name
+        self.salary = salary
+        self.job = job
+
+    def del_user(self, data):
+        data["users"] = [user for user in data["users"] if user["name"] != self.name]
+
+    def add_user(self, data):
+        data['users'].append({
+            "name": self.name,
+            "salary": self.salary,
+            "job_title": self.job
+        })
+
+    def edit_user(self, data):
+        data["users"] = [user for user in data["users"] if user["name"] != self.name]
+        data['users'].append({
+            "name": self.name,
+            "salary": self.salary,
+            "job_title": self.job
+        })
+
+
+enter = Model(enter_name(), enter_salary(), enter_job())

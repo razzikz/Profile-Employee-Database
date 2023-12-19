@@ -9,21 +9,6 @@
          "name": "John",
          "salary": 40000,
          "job_title": "VR-dev"
-      },
-      {
-         "name": "sdsd",
-         "salary": 123456,
-         "job_title": "gfg"
-      },
-      {
-         "name": "sdfg",
-         "salary": 1234,
-         "job_title": "sdfrt"
-      },
-      {
-         "name": "zdfg",
-         "salary": 123,
-         "job_title": "sdfg"
       }
    ]
 }
