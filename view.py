@@ -1,11 +1,25 @@
-print("Hello, what are we doing? (1 - delete, 2 - add, 3 - exit)")
-while True:
+import json
+
+with open('users.json') as file:
+    data = json.load(file)
+
+for user in data['users']:
+    print(f'{user["name"]}\n{user["salary"]}₽\n{user["job_title"]}')
+
+print("Hello, what are we doing?\n1 - delete\n2 - add\n3 - edit\n4 - exit")
+i = 0
+while i == 0:
     try:
         choice = int(input("Your choice: "))
-        name = input("Name new users: ")
-        salary = int(input("Salary new users: "))
-        job_title = input("Job title new users: ")
+        while True:
+            if 1 < choice > 4:
+                print("Try once more")
+                choice = int(input("Your choice: "))
+            else:
+                i = 1
+                break
+            break
     except ValueError:
         print("Try once more")
-    if choice == 3:
-        break
+
+    from controller import *
